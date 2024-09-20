@@ -36,8 +36,7 @@ INSTRUCCIONES DE INSTALACION Y CONFIGURACION
 
     1.  Clonar el Repositorio
         "
-            git clone https://github.com/tu-usuario/nombre-del-repositorio.git
-            cd nombre-del-repositorio
+            gh repo clone Erin2231/proyecto_taller_arduino_2024
                                                 "
     #khefgkuywgfduwygfuywdgckwgqvwbvkcygywdkukycgwhgcfkjwhgckjgvjgvkjsdgkjhchvgksdvdkjhsdfgvkjrg
     
