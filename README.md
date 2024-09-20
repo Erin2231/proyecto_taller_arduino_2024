@@ -38,8 +38,6 @@ INSTRUCCIONES DE INSTALACION Y CONFIGURACION
         "
             gh repo clone Erin2231/proyecto_taller_arduino_2024
                                                 "
-    #khefgkuywgfduwygfuywdgckwgqvwbvkcygywdkukycgwhgcfkjwhgckjgvjgvkjsdgkjhchvgksdvdkjhsdfgvkjrg
-    
     2.  Instalar Dependencias
 Asegúrate de tener Python 3.8+ instalado. Instala las dependencias del proyecto:
         "
