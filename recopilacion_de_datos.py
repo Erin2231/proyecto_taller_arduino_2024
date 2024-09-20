@@ -2,6 +2,10 @@ import requests
 import pandas as pd
 import matplotlib.pyplot as plt
 import ast
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
 
 ##########################################################################################
 #   RECOGIDA DE DATOS DE VUELOS DE LLEGADAS Y SALIDAS EN EL AEROPUERTO DE MADRID-BARAJAS #
@@ -14,7 +18,7 @@ if respuesta == "s":
 
     # Configuración de la API de AviationStack
     base_url = "http://api.aviationstack.com/v1/flights"
-    api_key = "ee306aa539272ddd496e44ecf957d0ff"  # Reemplaza con tu clave API
+    api_key = os.getenv("API_KEY")  # Reemplaza con tu clave API
 
     # Parámetros para obtener vuelos de llegadas y salidas en Barajas (LEMD)
     params_llegadas = { 'access_key': api_key,
