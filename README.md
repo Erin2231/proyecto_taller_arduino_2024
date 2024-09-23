@@ -6,17 +6,17 @@ REQUISITOS DEL PROYECTO
 
 BIBLIOTECAS Y DEPENDENCIAS:
 
-Este proyecto requiere las siguientes bibliotecas de Python:
-    - streamlit: Para crear la interfaz de usuario.
-    - requests: Para hacer solicitudes a la API de AviationStack.
-    - pandas: Para manipulación de datos y creación de DataFrames.
-    - matplotlib: Para generar gráficos de barras.
-    - ast: Para la conversión de cadenas a diccionarios.
-    - os: Para cargar las variables de entorno.
-    - dotenv: Para gestionar variables de entorno.
-    - smtplib y ssl: Para enviar correos electrónicos.
-    - email.message: Para construir el correo con los archivos adjuntos.
-    - mimetypes: Para gestionar tipos MIME.
+Este proyecto requiere las siguientes bibliotecas de Python
+- streamlit: Para crear la interfaz de usuario.
+- requests: Para hacer solicitudes a la API de AviationStack.
+- pandas: Para manipulación de datos y creación de DataFrames.
+- matplotlib: Para generar gráficos de barras.
+- ast: Para la conversión de cadenas a diccionarios.
+- os: Para cargar las variables de entorno.
+- dotenv: Para gestionar variables de entorno.
+- smtplib y ssl: Para enviar correos electrónicos.
+- email.message: Para construir el correo con los archivos adjuntos.
+- mimetypes: Para gestionar tipos MIME.
 
 Puedes instalar todas las dependencias usando el siguiente comando:
  
@@ -79,10 +79,10 @@ USO DE LA API DE AVIATIONSTACK
 
 La API de AviationStack se utiliza para obtener información sobre los vuelos de llegada y salida del aeropuerto de Madrid-Barajas.
 
-0. Parámetros Principales
-    - arr_icao: El código ICAO del aeropuerto de llegada (LEMD para Barajas).
-    - dep_icao: El código ICAO del aeropuerto de salida (LEMD para Barajas).
-    - limit: Límite de resultados por consulta.
+Parámetros Principales
+- arr_icao: El código ICAO del aeropuerto de llegada (LEMD para Barajas).
+- dep_icao: El código ICAO del aeropuerto de salida (LEMD para Barajas).
+- limit: Límite de resultados por consulta.
 
 ENVÍO DE CORREOS
 
